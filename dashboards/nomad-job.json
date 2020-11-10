@@ -1,29 +1,44 @@
 {
-   "__inputs": [ ],
-   "__requires": [ ],
    "annotations": {
-      "list": [ ]
+      "list": [
+         {
+            "builtIn": 1,
+            "datasource": "-- Grafana --",
+            "enable": true,
+            "hide": true,
+            "iconColor": "rgba(0, 211, 255, 1)",
+            "name": "Annotations & Alerts",
+            "type": "dashboard"
+         }
+      ]
    },
    "editable": true,
    "gnetId": null,
    "graphTooltip": 0,
-   "hideControls": false,
-   "id": null,
-   "links": [ ],
+   "iteration": 1604993179458,
+   "links": [],
    "panels": [
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
             "y": 0
          },
+         "hiddenSeries": false,
          "id": 2,
          "legend": {
             "alignAsTable": true,
@@ -40,14 +55,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -61,8 +80,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs running",
          "tooltip": {
@@ -76,7 +96,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -95,21 +115,33 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       },
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
-            "y": 0
+            "y": 4
          },
+         "hiddenSeries": false,
          "id": 3,
          "legend": {
             "alignAsTable": true,
@@ -126,14 +158,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -147,8 +183,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs queued",
          "tooltip": {
@@ -162,7 +199,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -181,21 +218,33 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       },
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
-            "y": 0
+            "y": 8
          },
+         "hiddenSeries": false,
          "id": 4,
          "legend": {
             "alignAsTable": true,
@@ -212,14 +261,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -233,8 +286,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs complete",
          "tooltip": {
@@ -248,7 +302,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -267,21 +321,33 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       },
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
-            "y": 0
+            "y": 12
          },
+         "hiddenSeries": false,
          "id": 5,
          "legend": {
             "alignAsTable": true,
@@ -298,14 +364,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -319,8 +389,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs failed",
          "tooltip": {
@@ -334,7 +405,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -353,21 +424,33 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       },
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
-            "y": 0
+            "y": 16
          },
+         "hiddenSeries": false,
          "id": 6,
          "legend": {
             "alignAsTable": true,
@@ -384,14 +467,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -405,8 +492,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs starting",
          "tooltip": {
@@ -420,7 +508,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -439,21 +527,33 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       },
       {
-         "aliasColors": { },
+         "aliasColors": {},
          "bars": false,
          "dashLength": 10,
          "dashes": false,
          "datasource": "$ds",
+         "fieldConfig": {
+            "defaults": {
+               "custom": {}
+            },
+            "overrides": []
+         },
          "fill": 0,
+         "fillGradient": 0,
          "gridPos": {
             "h": 4,
             "w": 15,
             "x": 0,
-            "y": 0
+            "y": 20
          },
+         "hiddenSeries": false,
          "id": 7,
          "legend": {
             "alignAsTable": true,
@@ -470,14 +570,18 @@
          },
          "lines": true,
          "linewidth": 1,
-         "links": [ ],
+         "links": [],
          "nullPointMode": "null",
+         "options": {
+            "alertThreshold": true
+         },
          "percentage": false,
+         "pluginVersion": "7.3.1",
          "pointradius": 5,
          "points": false,
          "renderer": "flot",
          "repeat": null,
-         "seriesOverrides": [ ],
+         "seriesOverrides": [],
          "spaceLength": 10,
          "span": 6,
          "stack": false,
@@ -491,8 +595,9 @@
                "refId": "A"
             }
          ],
-         "thresholds": [ ],
+         "thresholds": [],
          "timeFrom": null,
+         "timeRegions": [],
          "timeShift": null,
          "title": "jobs lost",
          "tooltip": {
@@ -506,7 +611,7 @@
             "mode": "time",
             "name": null,
             "show": true,
-            "values": [ ]
+            "values": []
          },
          "yaxes": [
             {
@@ -525,28 +630,36 @@
                "min": 0,
                "show": true
             }
-         ]
+         ],
+         "yaxis": {
+            "align": false,
+            "alignLevel": null
+         }
       }
    ],
-   "refresh": "",
-   "rows": [ ],
-   "schemaVersion": 14,
+   "refresh": "30s",
+   "schemaVersion": 26,
    "style": "dark",
-   "tags": [ ],
+   "tags": [],
    "templating": {
       "list": [
          {
             "current": {
+               "selected": false,
                "text": "default",
                "value": "default"
             },
+            "error": null,
             "hide": 0,
+            "includeAll": false,
             "label": null,
+            "multi": false,
             "name": "ds",
-            "options": [ ],
+            "options": [],
             "query": "prometheus",
             "refresh": 1,
             "regex": "",
+            "skipUrlSync": false,
             "type": "datasource"
          }
       ]
@@ -582,5 +695,6 @@
    },
    "timezone": "browser",
    "title": "Nomad Jobs",
-   "version": 0
+   "uid": "lxbJOD2Mk",
+   "version": 1
 }
