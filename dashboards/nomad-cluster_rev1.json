@@ -17,7 +17,7 @@
       "type": "panel",
       "id": "natel-discrete-panel",
       "name": "Discrete",
-      "version": "0.0.8-pre"
+      "version": "0.1.0"
     },
     {
       "type": "datasource",
