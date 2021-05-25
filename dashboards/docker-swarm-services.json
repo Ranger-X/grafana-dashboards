@@ -17,7 +17,7 @@
   "gnetId": 7007,
   "graphTooltip": 1,
   "id": null,
-  "iteration": 1621871256061,
+  "iteration": 1621918158085,
   "links": [],
   "panels": [
     {
@@ -157,7 +157,7 @@
       "renderer": "flot",
       "seriesOverrides": [],
       "spaceLength": 10,
-      "stack": true,
+      "stack": false,
       "steppedLine": false,
       "targets": [
         {
@@ -349,7 +349,7 @@
       "renderer": "flot",
       "seriesOverrides": [],
       "spaceLength": 10,
-      "stack": true,
+      "stack": false,
       "steppedLine": false,
       "targets": [
         {
@@ -357,6 +357,7 @@
           "expr": "sum(container_memory_rss{container_label_com_docker_swarm_service_name=~\"$stack\"}) by (container_label_com_docker_swarm_service_name, container_label_com_docker_swarm_task_id)",
           "format": "time_series",
           "hide": false,
+          "instant": false,
           "interval": "",
           "intervalFactor": 2,
           "legendFormat": "{{ container_label_com_docker_swarm_service_name }} - {{ container_label_com_docker_swarm_task_id }}",
@@ -791,5 +792,5 @@
   "timezone": "browser",
   "title": "Swarm Stack Monitoring",
   "uid": "364ipPOiz",
-  "version": 4
+  "version": 5
 }
