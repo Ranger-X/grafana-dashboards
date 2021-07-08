@@ -20,7 +20,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#299c46"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "format": "none",
          "gauge": {
             "maxValue": 3,
@@ -101,7 +101,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#299c46"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "format": "none",
          "gauge": {
             "maxValue": 1,
@@ -182,7 +182,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "format": "none",
          "gauge": {
             "maxValue": 1,
@@ -259,7 +259,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "see [doc](https://www.consul.io/docs/agent/telemetry.html#leadership-changes)",
          "fill": 0,
          "gridPos": {
@@ -344,7 +344,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "see [doc](https://www.consul.io/docs/agent/telemetry.html#leadership-changes)",
          "fill": 0,
          "gridPos": {
@@ -429,7 +429,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "see [doc](https://www.consul.io/docs/agent/telemetry.html#leadership-changes)",
          "fill": 0,
          "gridPos": {
@@ -514,7 +514,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": 0,
          "gridPos": {
             "h": 5,
@@ -598,7 +598,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": 0,
          "gridPos": {
             "h": 5,

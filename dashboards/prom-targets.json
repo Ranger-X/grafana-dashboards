@@ -16,7 +16,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": 1,
          "gridPos": {
             "h": 7,
@@ -137,7 +137,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$ds",
+            "datasource": "s2-prometheus",
             "hide": 0,
             "includeAll": true,
             "label": null,
@@ -157,7 +157,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$ds",
+            "datasource": "s2-prometheus",
             "hide": 0,
             "includeAll": true,
             "label": null,

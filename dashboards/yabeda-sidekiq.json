@@ -24,7 +24,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -135,7 +135,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -248,7 +248,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -352,7 +352,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "description": "Number of jobs waiting in queues to be executed",
       "fieldConfig": {
         "defaults": {
@@ -456,7 +456,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "description": "Queue latency is the difference in seconds since the oldest job in the queue was enqueued. Or how long job is waiting its turn to be executed.",
       "fieldConfig": {
         "defaults": {
@@ -560,7 +560,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -658,7 +658,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -756,7 +756,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -860,7 +860,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []

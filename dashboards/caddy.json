@@ -21,7 +21,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -34,7 +34,7 @@
       "type": "row"
     },
     {
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -104,7 +104,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -204,7 +204,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "$ds",
+        "datasource": "s2-prometheus",
         "definition": "caddy_http_requests_total",
         "error": null,
         "hide": 0,

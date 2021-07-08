@@ -35,7 +35,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": 0,
          "gridPos": {
             "h": 4,
@@ -121,7 +121,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": 0,
          "gridPos": {
             "h": 4,
@@ -226,7 +226,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fill": false,
          "gridPos": {
             "h": 5,
@@ -349,7 +349,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$ds",
+            "datasource": "s2-prometheus",
             "hide": 0,
             "includeAll": true,
             "label": null,
@@ -369,7 +369,7 @@
          {
             "allValue": ".+",
             "current": { },
-            "datasource": "$ds",
+            "datasource": "s2-prometheus",
             "hide": 0,
             "includeAll": true,
             "label": null,

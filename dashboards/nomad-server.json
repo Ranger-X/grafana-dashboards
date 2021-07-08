@@ -27,7 +27,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#299c46"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -114,7 +114,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -201,7 +201,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -288,7 +288,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
          ],
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -371,7 +371,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "Indicator of memory pressure. See [doc](https://www.nomadproject.io/docs/telemetry/index.html)",
          "fieldConfig": {
             "defaults": {
@@ -473,7 +473,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -574,7 +574,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "fieldConfig": {
             "defaults": {
                "custom": {}
@@ -675,7 +675,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "General indicator of Raft latency. See [doc](https://www.nomadproject.io/docs/telemetry/index.html)",
          "fieldConfig": {
             "defaults": {
@@ -777,7 +777,7 @@
          "bars": false,
          "dashLength": 10,
          "dashes": false,
-         "datasource": "$ds",
+         "datasource": "s2-prometheus",
          "description": "General indicator of Raft latency.",
          "fieldConfig": {
             "defaults": {

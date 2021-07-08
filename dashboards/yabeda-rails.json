@@ -26,7 +26,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -135,7 +135,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -252,7 +252,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
@@ -356,7 +356,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "$ds",
+      "datasource": "s2-prometheus",
       "fieldConfig": {
         "defaults": {
           "links": []
