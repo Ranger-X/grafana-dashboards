@@ -29,7 +29,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 1,
       "fieldConfig": {
         "defaults": {},
@@ -119,7 +119,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {},
@@ -206,7 +206,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {},
@@ -296,7 +296,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": null,
       "fieldConfig": {
         "defaults": {},
@@ -382,7 +382,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {},
@@ -483,7 +483,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {},
@@ -588,7 +588,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 1,
       "fieldConfig": {
         "defaults": {},
@@ -678,7 +678,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -764,7 +764,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 1,
       "fieldConfig": {
         "defaults": {},
@@ -854,7 +854,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -936,7 +936,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1042,7 +1042,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {},
@@ -1149,7 +1149,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {},
@@ -1256,7 +1256,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {},
@@ -1357,7 +1357,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {},
@@ -1455,7 +1455,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1536,7 +1536,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1631,7 +1631,7 @@
     },
     {
       "columns": [],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -1703,7 +1703,7 @@
       {
         "allValue": ".+",
         "current": {},
-        "datasource": "${DS_S2-PROMETHEUS}",
+        "datasource": "$ds",
         "definition": "",
         "description": null,
         "error": null,

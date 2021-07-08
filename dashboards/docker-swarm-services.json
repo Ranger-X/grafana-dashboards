@@ -29,7 +29,7 @@
         "rgba(237, 129, 40, 0.89)",
         "#d44a3a"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": 1,
       "fieldConfig": {
         "defaults": {},
@@ -113,7 +113,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "decimals": null,
       "fieldConfig": {
         "defaults": {},
@@ -221,7 +221,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -305,7 +305,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -412,7 +412,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -517,7 +517,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {},
         "overrides": []
@@ -632,7 +632,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_S2-PROMETHEUS}",
+        "datasource": "$ds",
         "definition": "query_result(count(container_last_seen{container_label_com_docker_swarm_service_name =~\".+\"}) by (container_label_com_docker_swarm_service_name))",
         "description": null,
         "error": null,

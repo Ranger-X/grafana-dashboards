@@ -1,40 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_S2-PROMETHEUS",
-      "label": "s2-prometheus",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "7.3.2"
-    },
-    {
-      "type": "panel",
-      "id": "graph",
-      "name": "Graph",
-      "version": ""
-    },
-    {
-      "type": "datasource",
-      "id": "prometheus",
-      "name": "Prometheus",
-      "version": "1.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "stat",
-      "name": "Stat",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -57,7 +21,7 @@
   "panels": [
     {
       "collapsed": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -70,7 +34,7 @@
       "type": "row"
     },
     {
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -140,7 +104,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_S2-PROMETHEUS}",
+      "datasource": "$ds",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -240,7 +204,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_S2-PROMETHEUS}",
+        "datasource": "$ds",
         "definition": "caddy_http_requests_total",
         "error": null,
         "hide": 0,
